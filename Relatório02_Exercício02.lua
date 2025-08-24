@@ -1,7 +1,7 @@
 Array = {}
 
 io.write("Digite o tamanho do array: ")
-local n = tonumber(io.read())
+n = tonumber(io.read())
 
 for i = 1, n do
     io.write("Digite o elemento " .. i .. ": ")
