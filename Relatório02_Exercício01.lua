@@ -1,13 +1,9 @@
 io.write("Digite o inicio do intervalo: ")
-M = io.read()
+M = tonumber(io.read())
 io.write("Digite o final do intervalo: ")
-N = io.read()
+N = tonumber(io.read())
 io.write("Digite o numero que deseja os multiplos: ")
-X = io.read()
-
-M = tonumber(M)
-N = tonumber(N)
-X = tonumber(X)
+X = tonumber(io.read())
 
 function FindMultiple(num1, num2)
     if num1 % num2 == 0 then
