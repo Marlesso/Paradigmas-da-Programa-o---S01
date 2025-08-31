@@ -25,10 +25,13 @@ fn main() {
   let j2 = eh_par(num2);
 
   if soma == j1 && soma == j2 {
+    println!("Soma: {}", num1+num2);
     println!("Empate");
   } else if soma == j1 {
-    println!("Jogador 1 venceu");
+      println!("Soma: {}", num1+num2);
+      println!("Jogador 1 venceu");
   } else {
+      println!("Soma: {}", num1+num2);
       println!("Jogador 2 venceu");
   }
 }
