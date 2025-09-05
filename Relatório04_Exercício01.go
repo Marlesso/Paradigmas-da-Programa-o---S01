@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Digite um número para classificá-lo: ")
 	
 	var input int
-	fmt.Scan(&input)
+	fmt.Scanln(&input)
 
 	fmt.Println("O número ", input, " é ", classificar_numero(input))
 }
