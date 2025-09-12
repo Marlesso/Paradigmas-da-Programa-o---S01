@@ -17,4 +17,5 @@ int main() {
   cin >> x;
 
   cout << "Seu fibonacci e: " << fibonacci(x);
+  return 0;
 }
