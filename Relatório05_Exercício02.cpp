@@ -22,4 +22,5 @@ int main() {
   }
 
   cout << "A soma dos numeros e: " << somaArray(arr, tam);
+  return 0;
 }
