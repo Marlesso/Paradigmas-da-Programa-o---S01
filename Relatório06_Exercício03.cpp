@@ -54,5 +54,6 @@ int main() {
   
   delete pessoa2;
   delete pessoa1;
+  
   return 0;
 }
