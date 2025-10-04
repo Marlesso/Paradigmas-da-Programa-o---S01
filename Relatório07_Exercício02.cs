@@ -9,7 +9,7 @@ public class Pokemon {
   }
   
   public virtual void Atacar(){
-    Console.WriteLine("Tackle");
+    Console.WriteLine($"{nome} usou Tackle");
   }
 }
 
@@ -17,13 +17,13 @@ public class PokemonsDeFogo : Pokemon {
   public PokemonsDeFogo (string nome) : base(nome) {}
   
   public override void Atacar(){
-    Console.WriteLine("Bola de Fogo");
+    Console.WriteLine($"{nome} usou Bola de Fogo");
   }
 }
 public class PokemonsDeAgua : Pokemon {
   public PokemonsDeAgua (string nome) : base(nome) {}
   public override void Atacar(){
-    Console.WriteLine("Jato de Água");
+    Console.WriteLine($"{nome} usou Jato de Água");
   }
 }
 
