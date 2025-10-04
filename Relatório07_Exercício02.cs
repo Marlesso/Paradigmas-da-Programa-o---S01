@@ -14,16 +14,14 @@ public class Pokemon {
 }
 
 public class PokemonsDeFogo : Pokemon {
-  public PokemonsDeFogo (string nome) : base(nome) {
-  }
+  public PokemonsDeFogo (string nome) : base(nome) {}
   
   public override void Atacar(){
     Console.WriteLine("Bola de Fogo");
   }
 }
 public class PokemonsDeAgua : Pokemon {
-  public PokemonsDeAgua (string nome) : base(nome) {
-  }
+  public PokemonsDeAgua (string nome) : base(nome) {}
   public override void Atacar(){
     Console.WriteLine("Jato de Água");
   }
