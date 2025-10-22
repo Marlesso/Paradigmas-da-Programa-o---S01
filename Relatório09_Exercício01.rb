@@ -34,6 +34,7 @@ class DrinkLenda < Drink
   end
 end
 
+#---------Main------------
 print "Nome do Drink: "
 nome = gets.chomp
 print "Preço base: "
