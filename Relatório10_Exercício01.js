@@ -51,11 +51,11 @@ class PokemonAgua extends Pokemon {
 }
 
 //--------------Main------------------
-Eevee = new Pokemon('Eevee', 'Normal', 20)
-Blastoise = new PokemonAgua('Blastoise', 120, 5)
-Charizard = new PokemonFogo('Charizard', 120, 10)
+const Eevee = new Pokemon('Eevee', 'Normal', 20)
+const Blastoise = new PokemonAgua('Blastoise', 120, 5)
+const Charizard = new PokemonFogo('Charizard', 120, 10)
 
-pokemons = [Eevee, Blastoise, Charizard];
+let pokemons = [Eevee, Blastoise, Charizard];
 
 pokemons.forEach(pokemon => {
     pokemon.atacar(Eevee);
