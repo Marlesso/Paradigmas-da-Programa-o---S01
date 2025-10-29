@@ -63,7 +63,7 @@ pokemons.forEach(pokemon => {
     pokemon.atacar(Charizard);
 });
 
-console.log("\n=======STATUS PÓS BATALHA=======");
+console.log("\n======= STATUS PÓS BATALHA =======");
 pokemons.forEach(p => {
     console.log(`${p.nome} (${p.tipo}) - Vida: ${p.getVida()}`);
 });
