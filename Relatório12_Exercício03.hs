@@ -30,6 +30,8 @@ eventoC = Evento [Banda "Linkin Park" "Rock" 30000, Banda "Slayer" "Metal" 35000
 
 main :: IO ()
 main = do
+  putStrLn "\n --- Simulando Eventos --- "
+
   putStr "\nCusto total do evento A: R$"
   print (custoTotalEvento eventoA)
   putStrLn "Banda de abertura do evento A:"
