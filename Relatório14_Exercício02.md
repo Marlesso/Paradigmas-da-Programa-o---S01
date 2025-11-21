@@ -1,11 +1,11 @@
 filho(hades, cronos).
 filho(hades, reia).
 filho(zeus, cronos).
+filho(zeus, reia).
 
 dominio(hades, submundo).
 dominio(zeus, ceu).
 dominio(zeus, mar).
-dominio(zeus, submundo).
 
 habita(hades, submundo).
 habita(zeus, olimpo).
