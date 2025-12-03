@@ -1,9 +1,9 @@
 % Fatos: area(Disciplina, Area)
 area(calculo_1, 'matematica').
 area(calculo_2, 'matematica').
-area(logica, 'computacao').        % Comp 1
-area(prog_avancada, 'computacao'). % Comp 2
-area(analise_dados, 'computacao'). % Comp 3
+area(logica, 'computacao').
+area(prog_avancada, 'computacao').
+area(analise_dados, 'computacao').
 area(geometria, 'matematica').
 
 % Fatos: concluiu(Aluno, Disciplina)
@@ -11,9 +11,9 @@ concluiu(joao, logica).
 concluiu(joao, prog_avancada).    
 concluiu(joao, geometria).        
 
-concluiu(maria, logica).          % Comp (1/2)
-concluiu(maria, analise_dados).   % Comp (2/2)
-% Maria NAO concluiu nenhuma de matematica (0/0) -> OK para deficiencia_mat
+concluiu(maria, logica).
+concluiu(maria, analise_dados).
+% Maria NAO concluiu nenhuma de matematica
 
 alto_impacto(D) :-
     creditos(D, C),
